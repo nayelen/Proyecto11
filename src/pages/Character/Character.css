@@ -1,0 +1,28 @@
+.character {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: var(--padding-xxl);
+}
+.character h1 {
+  color: var(--color-2);
+  font-size: var(--terciary-text-size);
+  text-shadow: 1px 2px 0px var(--color-3);
+}
+.character img {
+  height: 400px;
+  width: 400px;
+  object-fit: contain;
+  filter: drop-shadow(12px 8px 4px var(--color-4));
+}
+.character img:hover {
+  transform: scale(1.1) rotate(5deg);
+}
+.character p {
+  width: 70%;
+  font-size: var(--secondary-text-size);
+  color: var(--color-3);
+  padding: var(--padding-l);
+  text-shadow: 2px 2px 0px var(--color-4);
+}

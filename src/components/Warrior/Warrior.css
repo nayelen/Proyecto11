@@ -1,0 +1,16 @@
+h2 {
+  /* font-size: var(--primary-text-size); */
+  color: var(--primary-text);
+  padding: var(--padding-xs);
+  text-shadow: 1px 2px 0px var(--color-3);
+}
+
+.warrior p {
+  font-size: var(--primary-text-size);
+  text-align: center;
+  padding: var(--padding-xs);
+}
+
+.warrior {
+  padding: var(--padding-xs);
+}

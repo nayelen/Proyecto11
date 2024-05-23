@@ -1,0 +1,10 @@
+#characters {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: var(--gap-l);
+  padding: var(--padding-xl) var(--padding-s);
+  position: absolute;
+  margin-top: var(--margin-xxl);
+}

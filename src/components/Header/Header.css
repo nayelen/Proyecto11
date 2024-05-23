@@ -1,0 +1,31 @@
+header {
+  position: fixed;
+  top: 0;
+  height: 10svh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background-color: var(--color-4);
+  z-index: 2;
+}
+nav {
+  width: 100%;
+  padding: var(--padding-m);
+}
+nav > ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+header a {
+  font-size: var(--primary-text-size);
+  color: var(--secondary-text);
+  text-decoration: none;
+  list-style: none;
+}
+header a:hover {
+  color: var(--color-5);
+}
+header a.active {
+  border-bottom-style: dashed;
+}

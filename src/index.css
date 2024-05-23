@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Ravi+Prakash&display=swap');
+:root {
+  --primary-font: 'Ravi Prakash', system-ui;
+
+  /* BRANDING COLORS */
+  --color-1: #eaeaea;
+  --color-2: #3080f8;
+  --color-3: #ffdd00;
+  --color-4: #1a1a1a;
+  --color-5: #ff4d00;
+  --color-6: rgba(199, 199, 199, 0.327);
+
+  /* TEXT-COLORS */
+  --primary-text: var(--color-2);
+  --secondary-text: var(--color-1);
+  --tertiary-text: var(--color-4);
+
+  /* TEXT-SIZE */
+  --primary-text-size: 28px;
+  --secondary-text-size: 20px;
+  --terciary-text-size: 70px;
+
+  /* BORDER RADIUS */
+  --primary-br: 30px;
+  --secondary-br: 20px;
+  --terciary-br: 10px;
+
+  /* SPACINGS */
+  --margin-xs: 10px;
+  --margin-s: 20px;
+  --margin-m: 30px;
+  --margin-l: 40px;
+  --margin-xl: 50px;
+  --margin-xxl: 100px;
+
+  --padding-xs: 10px;
+  --padding-s: 20px;
+  --padding-m: 30px;
+  --padding-l: 40px;
+  --padding-xl: 50px;
+  --padding-xxl: 100px;
+
+  --gap-xs: 10px;
+  --gap-s: 20px;
+  --gap-m: 30px;
+  --gap-l: 40px;
+  --gap-xl: 50px;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  font-family: var(--primary-font);
+}

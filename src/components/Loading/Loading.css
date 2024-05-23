@@ -1,0 +1,11 @@
+.loading {
+  width: 60%;
+  height: 50svh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.loading > img {
+  height: 100%;
+  object-fit: contain;
+}

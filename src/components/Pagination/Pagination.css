@@ -1,0 +1,30 @@
+.pagination {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: var(--gap-l);
+  position: relative;
+}
+
+.pagination > button {
+  border-radius: var(--terciary-br);
+  padding: 0 var(--padding-xs);
+  font-size: var(--primary-text-size);
+  background-color: var(--color-3);
+  color: var(--color-2);
+  border: 3px solid var(--color-4);
+  cursor: pointer;
+}
+
+.pagination > p {
+  font-size: var(--primary-text-size);
+  width: 100px;
+  text-align: center;
+}
+
+.pagination > button:disabled {
+  border: none;
+  cursor: not-allowed;
+}
