@@ -30,4 +30,22 @@
 .game h1 {
   color: var(--color-3);
   text-shadow: 1px 2px 0px var(--color-2);
+  padding: var(--padding-s);
+  text-align: center;
+}
+@media (max-width: 1010px) {
+  .game img {
+    height: 300px;
+    width: 300px;
+  }
+}
+@media (max-width: 810px) {
+  .game img {
+    height: 250px;
+    width: 250px;
+  }
+  .game button {
+    width: 60px;
+    height: 60px;
+  }
 }
